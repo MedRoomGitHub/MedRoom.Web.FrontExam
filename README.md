@@ -15,6 +15,7 @@ Vamos começar! Siga o passo a passo abaixo e, se tiver alguma dúvida, você po
 ```powershell
 # Se você não estiver com o yarn instalado, instale-o com o comando a seguir
 npm install -g yarn
+
 # Substitua <meu-nome> pelo seu primeiro nome
 git checkout -b "<meu-nome>-front-end"
 yarn install
