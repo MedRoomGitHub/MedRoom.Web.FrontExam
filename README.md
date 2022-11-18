@@ -14,7 +14,7 @@ Vamos começar! Siga o passo a passo abaixo e, se tiver alguma dúvida, você po
 
 ```powershell
 # Substitua <meu-nome> pelo seu primeiro nome
-git checkout -b "<meu-nome>-onboarding-front"
+git checkout -b "<meu-nome>-front-end"
 yarn install
 ```
 
