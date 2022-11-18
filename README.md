@@ -63,12 +63,12 @@ b. **Para cada repositório**, deverão aparecer as informações: nome do repos
 
 - **Typescript:** se você se sentir confortável, poderá usar Typescript (as dependências já estão instaladas, basta criar arquivos com a extensão .ts/.tsx). Caso contrário, não tem problema em usar Javascript!
 
-- Após finalizar o projeto, suba-o no GitLab com os comandos a seguir e nos avise!
+- Após finalizar o projeto, suba-o no GitHub com os comandos a seguir e nos avise via e-mail (victor.hugo@medroom.com.br)!
 
 ```powershell
 git add .
-git commit -m "Projeto de onboarding"
-git push --set-upstream origin <meu-nome>-onboarding-front
+git commit -m "Projeto inicial de front-end"
+git push --set-upstream origin <meu-nome>-front-end
 ```
 
 ## API
@@ -80,4 +80,6 @@ Você irá precisar especificamente dos seguintes endpoints:
 a. **https://api.github.com/users/<nome do usuário>** *(retorna as informações do usuário)*
 
 b. **https://api.github.com/users/<nome do usuário>/repos** *(retorna a lista de repositórios do usuário)*
+
+**OBS:** as chamadas acima são públicas e não necessitam de autorização mas, se você enfrentar problemas de limitação de chamadas, você poderá se autenticar na API utilizando um token de autorização juntamente ao Octokit: https://docs.github.com/en/rest/quickstart?tool=javascript
 
