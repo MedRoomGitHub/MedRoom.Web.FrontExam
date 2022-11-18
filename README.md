@@ -13,6 +13,8 @@ Vamos começar! Siga o passo a passo abaixo e, se tiver alguma dúvida, você po
 2. Entre na pasta do projeto recém clonado e execute os seguintes comandos para criar uma nova branch e instalar as dependências:
 
 ```powershell
+# Se você não estiver com o yarn instalado, instale-o com o comando a seguir
+npm install -g yarn
 # Substitua <meu-nome> pelo seu primeiro nome
 git checkout -b "<meu-nome>-front-end"
 yarn install
