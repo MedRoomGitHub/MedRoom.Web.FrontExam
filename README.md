@@ -8,7 +8,7 @@ Antes de iniciar sua jornada como desenvolvedor front-end no time de web da MedR
 
 Vamos começar! Siga o passo a passo abaixo e, se tiver alguma dúvida, você poderá nos contatar pelo seguinte e-mail: victor.hugo@medroom.com.br
 
-1. Clone este projeto em sua máquina com o comando: `git clone https://gitlab.com/medroom-vr/plataform/onboarding-front.git`
+1. Clone este projeto em sua máquina com o comando: `git clone https://github.com/MedRoomGitHub/MedRoom.Web.FrontExam.git`
 
 2. Entre na pasta do projeto recém clonado e execute os seguintes comandos para criar uma nova branch e instalar as dependências:
 
