@@ -6,7 +6,7 @@ Antes de iniciar sua jornada como desenvolvedor front-end no time de web da MedR
 
 ## Iniciando
 
-Vamos começar! Siga o passo a passo abaixo e, se tiver alguma dúvida, você poderá nos contatar pelo seguinte e-mail: victor.hugo@medroom.com.br
+Vamos começar! Siga o passo a passo abaixo e, se tiver alguma dúvida, você poderá nos contatar pelos seguintes e-mails: victor.hugo@medroom.com.br e giovana.boer@medroom.com.br
 
 1. Clone este projeto em sua máquina com o comando: `git clone https://github.com/MedRoomGitHub/MedRoom.Web.FrontExam.git`
 
@@ -63,7 +63,7 @@ b. **Para cada repositório**, deverão aparecer as informações: nome do repos
 
 - **Typescript:** se você se sentir confortável, poderá usar Typescript (as dependências já estão instaladas, basta criar arquivos com a extensão .ts/.tsx). Caso contrário, não tem problema em usar Javascript!
 
-- Após finalizar o projeto, suba-o no GitHub com os comandos a seguir e nos avise via e-mail (victor.hugo@medroom.com.br)!
+- Após finalizar o projeto, suba-o no GitHub com os comandos a seguir e nos avise via e-mail (victor.hugo@medroom.com.br e giovana.boer@medroom.com.br)!
 
 ```powershell
 git add .
