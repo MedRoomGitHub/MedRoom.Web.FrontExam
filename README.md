@@ -4,17 +4,13 @@
 
 Antes de iniciar sua jornada como desenvolvedor front-end no time de web da MedRoom, convidamos você a criar um pequeno projeto de exemplo, assim poderemos conhecer melhor suas habilidades técnicas e entender seu estilo de codificação!
 
-Ah, e não se preocupe! Este projeto não é eliminatório e apenas serve para conhecermos seu lado técnico!
-
 ## Iniciando
 
-Vamos começar! Siga o passo a passo abaixo e, se tiver alguma dúvida, chame alguém do time de web.
+Vamos começar! Siga o passo a passo abaixo e, se tiver alguma dúvida, você poderá nos contatar pelo seguinte e-mail: victor.hugo@medroom.com.br
 
-1. Certifique-se que seguiu todos os passos do [projeto de Onboarding](https://gitlab.com/medroom-vr/plataform/onboarding)
+1. Clone este projeto em sua máquina com o comando: `git clone https://gitlab.com/medroom-vr/plataform/onboarding-front.git`
 
-2. Clone este projeto em sua máquina com o comando: `git clone https://gitlab.com/medroom-vr/plataform/onboarding-front.git`
-
-3. Entre na pasta do projeto recém clonado e execute os seguintes comandos para criar uma nova branch e instalar as dependências:
+2. Entre na pasta do projeto recém clonado e execute os seguintes comandos para criar uma nova branch e instalar as dependências:
 
 ```powershell
 # Substitua <meu-nome> pelo seu primeiro nome
@@ -22,13 +18,13 @@ git checkout -b "<meu-nome>-onboarding-front"
 yarn install
 ```
 
-4. Abra o diretório do projeto em seu Visual Studio Code
+3. Abra o diretório do projeto em seu Visual Studio Code
 
-5. No terminal do Visual Studio Code, execute o comando: `yarn dev`
+4. No terminal do Visual Studio Code, execute o comando: `yarn dev`
 
-6. O projeto estará disponível na URL: [http://localhost:3000](http://localhost:3000)
+5. O projeto estará disponível na URL: [http://localhost:3000](http://localhost:3000)
 
-7. Se você ver a seguinte página inicial ao acessar o link, parabéns! Você completou os passos iniciais! Agora vamos seguir para a explicação do projeto.
+6. Se você ver a seguinte página inicial ao acessar o link, parabéns! Você completou os passos iniciais! Agora vamos seguir para a explicação do projeto.
 
 ![Página inicial do ambiente de desenvolvimento](docs/img/pag_inicial.jpg)
 
