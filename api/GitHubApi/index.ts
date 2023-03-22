@@ -4,7 +4,7 @@ export default function useGitHubApi() {
   const api = new GitHubApi({
     baseURL: "https://api.github.com",
     headers: {
-      Authorization: `Bearer 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`
+      Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_AUTH_TOKEN}`
     }
   });
 
