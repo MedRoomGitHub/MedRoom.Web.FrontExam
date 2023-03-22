@@ -2,6 +2,10 @@
 
 ## Introdução
 
+Antes de iniciar é necessario dar um ```npm install`` novas dependencias foram adicionadas e para rodar precisa de um ```yarn dev``
+
+## Introdução
+
 Antes de iniciar sua jornada como desenvolvedor front-end no time de web da MedRoom, convidamos você a criar um pequeno projeto de exemplo, assim poderemos conhecer melhor suas habilidades técnicas e entender seu estilo de codificação!
 
 ## Iniciando
