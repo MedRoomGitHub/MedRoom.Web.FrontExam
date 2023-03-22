@@ -25,7 +25,7 @@ export default function CardPepository({ repository }: CardRepositoryProps) {
         justifyContent: 'space-between',
         height: isMobile ? 'fit-content' : '140px',
         color: 'gray',
-        overflow: 'scroll'
+        overflow: isMobile? 'scroll' : 'hidden'
       }} >
       <Stack width={'100%'} gap={1} flexDirection={{sm: 'row', xs: 'column'}} justifyContent={'space-between'} >
         {repository?.html_url &&
