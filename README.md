@@ -2,6 +2,11 @@
 
 ## Introdução
 
+Antes de iniciar é necessario dar um ``npm install`` novas dependencias foram adicionadas e para rodar precisa de um ```yarn dev```, por causa de limitações de requisições é necessario uma chave de autenticação do github, você pode usar o .env.example, criar um arquivo na raiz ".env" para adicionar o seu token de atutenticação nas variaveis de ambiente!
+
+
+## Introdução
+
 Antes de iniciar sua jornada como desenvolvedor front-end no time de web da MedRoom, convidamos você a criar um pequeno projeto de exemplo, assim poderemos conhecer melhor suas habilidades técnicas e entender seu estilo de codificação!
 
 ## Iniciando

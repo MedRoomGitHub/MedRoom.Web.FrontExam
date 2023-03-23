@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  border-top: 1px solid white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.link {
+  color: whitesmoke
+}
