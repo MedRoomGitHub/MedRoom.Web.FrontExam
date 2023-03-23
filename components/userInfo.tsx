@@ -3,7 +3,7 @@ import LOCALE from "../config/locale";
 import Image from "next/image";
 import InitialOrientation from "../components/orientation";
 
-const UserInfoComponent = ({ userData }) => {
+const UserInfoComponent = ({ userData, isError }) => {
   const Avatar = ({ src }) => {
     return `${src}`;
   };
@@ -16,12 +16,12 @@ const UserInfoComponent = ({ userData }) => {
         height={50}
         alt="Avatar"
       />
-      <Info>{userData.name ?? LOCALE.nullName}</Info>
-      <Location>{userData.location ?? LOCALE.nullLocation}</Location>
+      <Info alt="username">{userData.name ?? LOCALE.nullName}</Info>
+      <Location alt="location">
+        {userData.location ?? LOCALE.nullLocation}
+      </Location>
     </UserPersonalInfo>
-  ) : (
-    <InitialOrientation />
-  );
+  ) : null;
 };
 
 const UserPersonalInfo = styled.div`

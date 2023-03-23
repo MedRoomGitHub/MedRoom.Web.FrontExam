@@ -21,6 +21,7 @@ const ErrorWrapper = styled.div`
   border-radius: 10px;
   width: 450px;
   background-color: #fffbd7;
+  margin-top: 1.5rem;
 `;
 
 const MessageError = styled.p`

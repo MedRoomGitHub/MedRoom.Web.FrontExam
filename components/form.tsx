@@ -22,7 +22,7 @@ const Form = ({ setData }) => {
     >
       <Searchbar />
       <SearchButton>
-        <Image src={search} width={20} height={20} />
+        <Image src={search} width={20} height={20} alt="search-icon" />
       </SearchButton>
       <ResetButton
         onClick={async (event) => {
@@ -31,7 +31,7 @@ const Form = ({ setData }) => {
           setData({ reposInfo: [], isError: false });
         }}
       >
-        <Image src={reset} width={20} height={20}></Image>
+        <Image src={reset} width={20} height={20} alt="reset-icon" />
       </ResetButton>
     </FormWrapper>
   );
@@ -53,6 +53,10 @@ const SearchButton = styled.button`
   cursor: pointer;
   margin-top: 2px;
   padding-top: 2px;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
 `;
 
 const ResetButton = styled.button`
@@ -65,6 +69,10 @@ const ResetButton = styled.button`
   cursor: pointer;
   margin-top: 2px;
   padding-top: 4px;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
 `;
 
 export default Form;

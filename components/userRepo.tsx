@@ -17,15 +17,18 @@ const UserReposComponent = ({ userRepos, userData }) => {
     return formatDate;
   };
   if (userRepos && userRepos.length === 0 && userData) {
-    return <p>{LOCALE.nullRepository}</p>;
+    return (
+      <NullWrapper>
+        <Info>{LOCALE.nullRepository}</Info>
+      </NullWrapper>
+    );
   }
   return userRepos.map((repo) => {
     return (
       <ReposWrapper>
         <Name>{repo.name}</Name>
         <Url>
-          {" "}
-          URL: <a href={repo.html_url}>{LOCALE.clickForAccessRepository}</a>
+          <a href={repo.html_url}>{LOCALE.clickForAccessRepository}</a>
         </Url>
         <Created>
           {LOCALE.created} {formatedDate(repo.created_at)}
@@ -46,8 +49,9 @@ const ReposWrapper = styled.div`
   padding: 0 1.5rem;
   padding-top: 0;
   border-radius: 10px;
-  grid-gap: 0.5rem;
   width: 400px;
+
+  margin: 0.5rem 0.5rem 1.5rem 0.5rem;
 
   background-color: #f8f8ff;
 
@@ -95,13 +99,31 @@ const Stars = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
+  width: 80px;
   border: none;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: #b22222;
   color: white;
   clip-path: polygon(0 0, 100% 0%, 100% 75%, 50% 100%, 0 75%);
   padding-bottom: 0.2rem;
+`;
+
+const NullWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-items: center;
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 10px;
+
+  background-color: #fffbd7;
+  cursor: not-allowed;
+`;
+
+const Info = styled.p`
+  justify-items: center;
 `;
 
 export default UserReposComponent;

@@ -4,7 +4,7 @@ import LOCALE from "../config/locale";
 const InitialOrientation = () => {
   return (
     <InitialWrapper>
-      <Info>{LOCALE.searchUser}</Info>
+      <Info alt="search an username">{LOCALE.searchUser}</Info>
     </InitialWrapper>
   );
 };
@@ -16,11 +16,13 @@ const InitialWrapper = styled.div`
   width: 400px;
   align-items: center;
   justify-items: center;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  grid-gap: 1rem;
   padding: 1.5rem;
   margin: 1.5rem;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 10px;
-  grid-gap: 1rem;
   background-color: #f6f6f6;
 
   @media (max-width: 600px) {

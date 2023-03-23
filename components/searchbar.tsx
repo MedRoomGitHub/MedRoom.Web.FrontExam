@@ -12,8 +12,16 @@ const Input = styled.input`
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   height: 50px;
-  width: 300px;
   padding-left: 0.5rem;
+  width: 300px;
+
+  @media (max-width: 500px) {
+    width: 200px;
+  }
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
 
   :focus {
     outline: 1px solid rgba(0, 0, 0, 0.24);
